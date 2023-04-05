@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fraud-detection"
+version = "0.1.0"
+description = ""
+authors = ["jgarciabraga <jgarciabraga@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fraud_detection"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.0"
+sklearn = "^0.0.post1"
+scikit-learn = "^1.2.2"
+kafka-python = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
